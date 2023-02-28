@@ -1,0 +1,328 @@
+.all {
+    background-color: #5656ff;
+    height: 740px;
+}
+
+#header {}
+
+.headerside {
+
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    right: 40px;
+    top: 40PX;
+    color: rgb(248, 243, 232);
+
+}
+
+
+
+
+.headerside:hover {
+    color: rgb(211, 186, 186);
+}
+
+#HEADERBUTN {
+    border: 3px SOLID rgb(233, 215, 215);
+    padding-left: 25PX;
+    padding-right: 25PX;
+    position: relative;
+    top: -10px;
+    border-color: rgb(230, 223, 223);
+
+}
+
+#HEADERBUTN:hover {
+    color: rgb(211, 186, 186);
+}
+
+#dropdown {
+    border: 3pxsolid red;
+    background-color: #5656ff;
+
+}
+
+#nvbarlinks {
+    gap: 10px;
+    position: relative;
+    top: -35px;
+
+}
+
+#logo {
+    position: relative;
+    top: -26px;
+    right: 15px;
+}
+
+#nvbarlinks a {
+    text-decoration: none;
+    color: WHITE;
+
+}
+
+/*inputbox*/
+
+.inputbox {
+    width: 60%;
+    display: flex;
+    position: relative;
+    left: 22%;
+    top: 50px;
+
+}
+
+#dropforsearch {
+    padding: 17px;
+    width: 220px;
+    color: black;
+    background-color: rgb(255, 253, 251);
+    font-size: 18px;
+    border-color: rgb(129, 114, 114);
+
+}
+
+
+#form1 {
+
+    padding: 18px;
+    width: 700px;
+    border-color: rgb(129, 114, 114);
+}
+
+#assetsparents {
+
+    background-color: rgb(245, 241, 241);
+    border-color: rgb(255, 255, 255);
+    height: 30PX;
+
+}
+
+#placeone {
+    font-size: 40px;
+    width: 50%;
+    position: relative;
+    left: 400px;
+    font-style: initial;
+    font-weight: 16px;
+    font-size: 44px;
+    color: white;
+}
+
+#download {
+    font-size: 25px;
+    width: 50%;
+    position: relative;
+    left: 430px;
+    font-size: 20px;
+    color: WHITE;
+
+}
+
+/*main1 start*/
+#maintopicstart {
+    position: relative;
+    top: 90px;
+    width: 50%;
+    left: 390px;
+}
+
+
+
+.main1 {
+    display: flex;
+    gap: 50px;
+
+}
+
+#cardnum1 {
+    border: 3px solid rgb(230, 216, 216);
+    border-radius: 50px;
+    overflow: hidden;
+
+}
+
+.main1 img {
+    border-radius: 40px;
+    transition: width 2s, height 4s;
+}
+
+/*account*/
+.account {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    width: 100%;
+    padding-left: 450px;
+    margin-top: -40px;
+    background-color: rgb(219, 217, 213);
+    padding-top: 20px;
+    padding-bottom: 14px;
+}
+
+.account p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.explore {
+
+    padding-left: 400px;
+margin-top: 70px;
+
+}
+
+.explore h1 {
+
+    font-size: 34px;
+
+}
+
+.explore h4 {
+
+    font-size: 23px;
+    width: 80%;
+    margin-left: -90px;
+    opacity: 1;
+
+}
+
+
+
+
+.allimages {
+        display: flex;
+    margin-top: 60px;
+}
+
+.part1image {
+    width: 50%;
+    padding: 20px;
+}
+.part1image img {
+ border-radius: 30px;
+ 
+}
+
+
+/*part2image start*/
+
+.part2image{
+gap: 7px;
+width: 50%;
+border: 4px solid red;
+}
+
+.sub1{
+display: flex;
+gap: 10px;
+padding-left: 8px;
+}
+.sub1 img{
+    border-radius: 10px;
+    }
+    
+
+
+
+.sub2{
+    display: flex;
+    gap: 10px;
+    padding-left: 8px;
+    margin-top: 10px;
+
+    }
+
+    
+    .sub2 img{
+        border-radius: 10px;
+        }
+
+        /*SUMTETXSTART */
+
+    #History{
+width: 20%;
+position: relative;
+top: -60PX;
+left: 50PX;   
+color: rgb(237, 237, 252) ; 
+font-size: 20px;
+}
+
+
+#beauyty{
+    width: 20%;
+   font-size: 23px;
+   position: relative;
+top: -610PX;
+left: 885PX; 
+color: rgb(237, 237, 252) ; 
+
+    
+
+}
+
+.lastdispalyimage{
+  
+    display: flex;
+    gap: 40px;
+    width: 90%;
+   position: relative;
+   left: 90px;
+}
+
+
+
+
+.imagenum1 img{
+    height: 400px;
+    border-radius: 10px;
+    border-color: rgb(231, 223, 216);
+
+}
+
+.imagenum1 img:hover{
+
+    border-color: rgb(231, 223, 216);
+    cursor: pointer;
+    overflow: hidden;
+
+}
+
+
+#gridcontent{
+
+    width: 50%;
+    
+}
+
+.oneimageandtex{
+background-color: rgb(241, 202, 129);
+}
+
+#btngrid{
+background-color: #5656ff;
+color: white;
+
+}
+
+
+.dridonemage2{
+background-color: rgb(194, 226, 226);
+margin-top: 90px;
+width: 80%;
+margin-left: 30px;
+border-radius: 30px;
+}
+
+footer{
+    background-color: rgb(127, 139, 127);
+    color: wheat;
+}
+
+#catoagaries li a{
+color: rgb(75, 67, 67);
+text-decoration: none;
+
+}
